@@ -7,6 +7,9 @@ const CircularButton = styled.button`
     border-radius: var(--border-radius-pill);
     background-color: var(--color-primary-main);
     border: none;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    transition-duration: 2s;
 
     .icon {
         font-size: 24px;
@@ -20,6 +23,9 @@ const CircularButton = styled.button`
 
     &:hover {
         background-color: var(--color-primary-light);
+        transition-delay: 0s;
+        transition-timing-function: linear;
+        transition-duration: 0s;
     }   
 
     &:active {

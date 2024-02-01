@@ -14,6 +14,9 @@ const Button = styled.button`
     background-color: var(--color-base-dark-highlight);
     vertical-align: middle;
     cursor: pointer;
+    transition-delay: 0s;
+    transition-timing-function: linear;
+    transition-duration: 2s;
 
     &:focus{
         border: var(--border-width-thin) solid var(--color-primary-main);
@@ -22,7 +25,10 @@ const Button = styled.button`
     }
 
     &:hover {
-        background-color: var(--color-base-dark-main);
+        background-color:var(--color-base-dark-main);
+        transition-delay: 0s;
+        transition-timing-function: linear;
+        transition-duration: 0s;
     }   
 
     &:active {
