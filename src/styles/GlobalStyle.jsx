@@ -75,6 +75,24 @@ const GlobalStyle = createGlobalStyle`
         --font-weight-medium: 400;
         --font-weight-regular: 300;
 
+        --color-primary-light: #f3c96f;
+        --color-primary-main: #f1bc48;
+        --color-primary-dark: #a88334;
+        --color-primary-contrast: #211e1e;
+        --color-primary-background: #fdf4e3;
+
+        --color-secondary-light: #f38f6f;
+        --color-secondary-main: #f1734b;
+        --color-secondary-dark: #a85034;
+        --color-secondary-contrast: #211e1e;
+        --color-secondary-background: #fde9e3;
+
+        --color-tertiary-light: #9e604c;
+        --color-tertiary-main: #863920;
+        --color-tertiary-dark: #5d2716;
+        --color-tertiary-contrast: #f0efee;
+        --color-tertiary-background: #f4e5e1;
+
         --color-error-light: #ef5350;
         --color-error-main: #d32f2f;
         --color-error-dark: #c62828;
@@ -99,14 +117,18 @@ const GlobalStyle = createGlobalStyle`
         --color-base-dark-main: #333333;
         --color-base-dark-highlight: #211e1e;
         --color-base-dark-contrast: #ffffff;
+        --color-base-dark-disable: #aeaeae;
 
-        --color-base-dark-secondary: #f5f5f5;
-        --color-base-dark-main: #ededed;
-        --color-base-dark-highlight: #d6d5d5;
-        --color-base-dark-contrast: #ffffff;
+
+        --color-base-light-secondary: #f5f5f5;
+        --color-base-light-main: #ededed;
+        --color-base-light-highlight: #d6d5d5;
+        --color-base-light-contrast: #ffffff;
 
         --color-back-ground-01: #ffffff;
     }
+
+
 
 `
 
