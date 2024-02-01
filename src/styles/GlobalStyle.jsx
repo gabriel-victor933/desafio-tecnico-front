@@ -131,6 +131,7 @@ const GlobalStyle = createGlobalStyle`
     #root {
         background-color: var(--color-background-01);
         width: 100%;
+        padding-top: 80px;
     }
 
 `
