@@ -34,7 +34,7 @@ const GlobalStyle = createGlobalStyle`
         --border-radius-sm: 8px;
         --border-radius-md: 16px;
         --border-radius-lg: 24px;
-        --border-radius-pill: 600px;
+        --border-radius-pill: 1000px;
         --border-radius-circle: 50%;
 
         --border-width-none: 0px;

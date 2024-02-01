@@ -1,16 +1,20 @@
-import {Button} from "../components/Button"
+import Button from "../components/Button"
+import CircularButton from "../components/CircularButton"
+import { IoPersonOutline } from "react-icons/io5";
+
 
 function HomePage() {
   return (
     <div style={{padding: "10px"}}>
 
       <Button>
-        <p>Assinar Newsletter</p>
+        Assinar Newsletter
       </Button>
-      <div></div>
-      <Button disabled>
-        <p>Assinar Newsletter</p>
-      </Button>
+
+      <div>asas</div>
+      <CircularButton><IoPersonOutline className="icon"/></CircularButton>
+      <CircularButton disabled ><IoPersonOutline className="icon"/></CircularButton>
+
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const Button = styled.button`
+const Button = styled.button`
     height: 56px;
     min-width: 160px;
     color: var(--color-base-light-contrast);
@@ -12,6 +12,7 @@ export const Button = styled.button`
     border: none;
     border-radius: var(--border-radius-none);
     background-color: var(--color-base-dark-highlight);
+    vertical-align: middle;
     cursor: pointer;
 
     &:focus{
@@ -43,4 +44,6 @@ export const Button = styled.button`
         padding: 0 var(--spacing-inline-sm);
     }
 `
+
+export default Button
 
