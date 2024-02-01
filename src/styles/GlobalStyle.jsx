@@ -125,10 +125,13 @@ const GlobalStyle = createGlobalStyle`
         --color-base-light-highlight: #d6d5d5;
         --color-base-light-contrast: #ffffff;
 
-        --color-back-ground-01: #ffffff;
+        --color-background-01: #ffffff;
     }
 
-
+    #root {
+        background-color: var(--color-background-01);
+        width: 100%;
+    }
 
 `
 
