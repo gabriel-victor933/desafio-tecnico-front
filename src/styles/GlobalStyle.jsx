@@ -30,6 +30,14 @@ const GlobalStyle = createGlobalStyle`
         --font-size-display: 80px;
         --font-size-giant: 96px;
 
+        --font-family-base: 'Plus Jakarta Sans','serif';
+
+        --font-weight-extrabold: 800;
+        --font-weight-bold: 700;
+        --font-weight-semibold: 600;
+        --font-weight-medium: 400;
+        --font-weight-regular: 300;
+
         --border-radius-none: 0px;
         --border-radius-sm: 8px;
         --border-radius-md: 16px;
@@ -66,14 +74,6 @@ const GlobalStyle = createGlobalStyle`
         --spacing-stack-xxxl: 120px;
         --spacing-stack-huge: 160px;
         --spacing-stack-giant: 200px;
-
-        --font-family-base: 'Plus Jakarta Sans','serif';
-
-        --font-weight-extrabold: 800;
-        --font-weight-bold: 700;
-        --font-weight-semibold: 600;
-        --font-weight-medium: 400;
-        --font-weight-regular: 300;
 
         --color-primary-light: #f3c96f;
         --color-primary-main: #f1bc48;
