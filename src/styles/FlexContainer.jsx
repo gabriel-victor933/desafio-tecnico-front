@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const FlexContainer = styled.section`
     height: 900px;
-    width: 100%;
+    width: 95vw;
     display: flex;
     flex-direction: row-reverse;
     align-items: stretch;
@@ -25,14 +25,15 @@ const FlexContainer = styled.section`
     }
 
     @media (max-width: 1024px) {
-        padding: var(--spacing-stack-xxs) var(--spacing-stack-xxs) 0 var(--spacing-stack-xxs);
+        padding: var(--spacing-stack-xxs) 0 0 0;
         gap: var(--spacing-stack-xxl);
         flex-direction: column;
         height: auto;
+        width: 90vw;
 
         div {
         width: 100%;
-    }
+        }
     }
 `
 

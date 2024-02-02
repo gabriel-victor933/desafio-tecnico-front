@@ -136,6 +136,9 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--color-background-01);
         width: 100%;
         padding-top: 80px;
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
     }
 
 `

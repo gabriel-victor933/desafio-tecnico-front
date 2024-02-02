@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import image from "../assets/images/Image.png"
-import cover from "../assets/images/vectorHero.svg"
+import vetor from "../assets/images/vectorHero.svg"
 
 const Block = styled.div`
     position: relative;
-
 `
 
 const Image = styled.img`
@@ -20,13 +19,13 @@ const Image = styled.img`
     }
 
     @media (max-width: 1024px) {
-        width: calc(100% + 24px);
+        width: calc(100% + 5vw);
         height: auto;
         
     }
 `
 
-const Cover = styled.img`
+const Vetor = styled.img`
     height: 157px;
     aspect-ratio: auto;
     position: absolute;
@@ -40,7 +39,7 @@ function CoverImage(){
     return(
         <Block>
             <Image src={image}/>
-            <Cover src={cover}/>
+            <Vetor src={vetor}/>
         </ Block>
     )
 }

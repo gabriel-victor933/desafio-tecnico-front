@@ -1,3 +1,4 @@
+import Companies from "../components/Companies"
 import Cover from "../components/Cover"
 import Footer from "../components/Footer"
 import Header from "../components/Header"
@@ -7,6 +8,7 @@ function HomePage() {
     <>
       <Header />
       <Cover />
+      <Companies />
       <Footer />
     </>
   )
