@@ -5,6 +5,7 @@ const FooterContainer = styled.footer`
     padding: var(--spacing-stack-sm) 0 var(--spacing-stack-xxxl) 0;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid var(--color-base-dark-highlight);
 
     @media (max-width: 1440px) {
         padding: var(--spacing-stack-sm) 0 var(--spacing-stack-xxl)  0;

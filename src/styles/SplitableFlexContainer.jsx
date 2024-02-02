@@ -34,7 +34,7 @@ const SplitableFlexContainer = styled(FlexContainer)`
 
     @media (max-width: 1024px) {
         padding: var(--spacing-stack-xxl) 0 0 0;
-        gap: var(--spacing-stack-sm);
+        gap: var(--spacing-stack-xxl);
         flex-direction: column;
         align-items: center;
         height: auto;

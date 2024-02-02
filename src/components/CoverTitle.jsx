@@ -2,6 +2,8 @@ import styled from "styled-components";
 import TextContainer from "../styles/TextContainer"
 import SmallTextContainer from "../styles/SmallTextContainer"
 import BigTextContainer from "../styles/BigTextContainer"
+import Logo from "../styles/Logo"
+import logo from "../assets/images/logotipoIgma.svg"
 
 const SmallText = styled(SmallTextContainer)`
   padding-bottom: var(--spacing-stack-xl);
@@ -24,7 +26,7 @@ function CoverTitle() {
     return (
         <div>
             <SmallText >
-                Prazer, Somos Igma
+                Prazer, Somos <Logo src={logo}/>
             </SmallText>
             <BigText >
                 Acreditamos em um mundo onde experiências incríveis são essenciais.
