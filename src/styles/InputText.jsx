@@ -11,6 +11,12 @@ const InputText = styled.input`
     border-bottom: 2px solid var(--color-base-dark-highlight);
     vertical-align: middle;
 
+    &::placeholder {
+        color: var(--color-base-dark-highlight);
+        font-size: var(--font-size-md);
+        font-weight: var(--font-weight-medium);
+    }
+
     &:focus{
         border: 1px solid var(--color-primary-light);
         border-bottom: 3px solid var(--color-base-dark-highlight);
@@ -44,6 +50,10 @@ const InputText = styled.input`
     @media (max-width: 1280px) {
         height: 56px;
         font-size: var(--font-size-xs);
+
+        &::placeholder {
+            font-size: var(--font-size-xs);
+        }
     }
 
 `

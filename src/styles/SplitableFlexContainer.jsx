@@ -13,6 +13,9 @@ const SplitableFlexContainer = styled(FlexContainer)`
 
     div:first-child {
         width: 43%;
+        @media (min-width: 1024px) {
+            padding-right: 10%;
+        }
     }
 
     div:last-child {
