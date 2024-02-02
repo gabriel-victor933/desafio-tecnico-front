@@ -20,7 +20,6 @@ const FlexContainer = styled.section`
 
     @media (max-width: 1280px) {
         height: 584px;
-        padding: 0px;
         padding: var(--spacing-stack-xxl) var(--spacing-stack-xl) 0 var(--spacing-stack-xl);
     }
 

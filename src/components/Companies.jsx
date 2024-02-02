@@ -1,11 +1,17 @@
-import FlexContainer from "../styles/FlexContainer"
+import SplitableFlexContainer from "../styles/SplitableFlexContainer";
+import TextContainer from "../styles/TextContainer"
 
 function Companies() {
   return (
-    <FlexContainer>
-        <div style={{backgroundColor: "red"}}></div>
-        <div style={{backgroundColor: "blue"}}></div>
-    </FlexContainer>
+    <SplitableFlexContainer>
+        <div>
+            <TextContainer>
+            Expressamos mais de 20 anos de experiência criando plataformas 
+            digitais para as maiores empresas do Brasil, impactando milhões de pessoas.
+            </TextContainer>
+        </div>
+        <div>teste</div>
+    </SplitableFlexContainer>
   )
 }
 

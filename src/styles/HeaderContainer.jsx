@@ -10,6 +10,7 @@ const HeaderContainer = styled.header`
     box-sizing: border-box;
     position: fixed;
     top: 0;
+    z-index: 2;
 
     img {
         width: 120px;
