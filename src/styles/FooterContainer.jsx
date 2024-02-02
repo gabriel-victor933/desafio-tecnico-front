@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-    width: 100%;
-    padding: var(--spacing-stack-sm) 137px var(--spacing-stack-xxxl) 137px;
+    width: 95vw;
+    padding: var(--spacing-stack-sm) 0 var(--spacing-stack-xxxl) 0;
     display: flex;
     justify-content: space-between;
 
     @media (max-width: 1440px) {
-        padding: var(--spacing-stack-sm) 109px var(--spacing-stack-xxl)  109px;
+        padding: var(--spacing-stack-sm) 0 var(--spacing-stack-xxl)  0;
 
     }
 
     @media (max-width: 1280px) {
-        padding: var(--spacing-stack-xxl) var(--spacing-stack-xl) var(--spacing-stack-xxl) var(--spacing-stack-xl);
+        padding: var(--spacing-stack-xxl) 0 var(--spacing-stack-xxl) 0;
     }
 
     @media (max-width: 1024px) {
-        padding: var(--spacing-stack-xxs) var(--spacing-stack-xxs) var(--spacing-stack-xxl) var(--spacing-stack-xxs);
+        width: 90vw;
+        padding: var(--spacing-stack-xxs) 0 var(--spacing-stack-xxl) 0;
         flex-direction: column;
         gap: var(--spacing-stack-nano)
     }
