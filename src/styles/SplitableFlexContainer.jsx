@@ -6,19 +6,19 @@ const SplitableFlexContainer = styled(FlexContainer)`
     padding: 0px;
     box-sizing: content-box;
 
-    div {
+    & > div {
         display: flex;
         align-items: center;
     }
 
-    div:first-child {
+    & > div:first-child {
         width: 43%;
         @media (min-width: 1024px) {
             padding-right: 10%;
         }
     }
 
-    div:last-child {
+    & > div:last-child {
         width: 57%;
     }
 
