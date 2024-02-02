@@ -20,6 +20,7 @@ const Showcase = styled.div`
         display: none;
         @media (max-width: 1024px) {
             display: flex;
+            height: auto;
             flex-direction: row;
             width: 100%;
             overflow: hidden;

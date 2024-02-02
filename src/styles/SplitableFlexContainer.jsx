@@ -39,7 +39,7 @@ const SplitableFlexContainer = styled(FlexContainer)`
         align-items: center;
         height: auto;
 
-        div:first-child, div:last-child {
+        & > div:first-child, & > div:last-child {
             width: 100%;
         }
     }

@@ -20,21 +20,25 @@ function NewsletterShowcase() {
       <div className="desktop">
         <ShowcaseImage src={celular1} />
         <ShowcaseImage src={celular2} />
+        <ShowcaseImage src={celular8} />
         <ShowcaseImage src={celular3} />
       </div>
       <div className="desktop">
         <ShowcaseImage src={celular4} />
         <ShowcaseImage src={celular5} />
+        <ShowcaseImage src={celular11} />
         <ShowcaseImage src={celular6} />
       </div>
       <div className="desktop">
         <ShowcaseImage src={celular7} />
         <ShowcaseImage src={celular8} />
+        <ShowcaseImage src={celular2} />
         <ShowcaseImage src={celular9} />
       </div>
       <div className="desktop">
         <ShowcaseImage src={celular10} />
         <ShowcaseImage src={celular11} />
+        <ShowcaseImage src={celular5} />
         <ShowcaseImage src={celular12} />
       </div>
       <div className="mobile">

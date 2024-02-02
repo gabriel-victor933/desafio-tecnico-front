@@ -10,7 +10,8 @@ const MoveLeft = keyframes`
 `
 
 const ShowcaseImageMobile = styled.img`
-    width: 30vw;
+    width: 40vw;
+    aspect-ratio: 1/2;
     animation-duration: 5s;
     animation-name: ${MoveLeft};
     animation-iteration-count: infinite;
