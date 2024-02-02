@@ -23,7 +23,7 @@ const HeaderContainer = styled.header`
     position: fixed;
     top: 0;
     z-index: 2;
-    animation: ${Fadein} 1s ease-in both;
+    animation: ${Fadein} 0.8s ease-in both;
     animation-iteration-count: 1;
 
     img {
