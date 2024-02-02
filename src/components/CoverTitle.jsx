@@ -24,7 +24,7 @@ function CoverTitle() {
     return (
         <div>
             <SmallText >
-                Prazer, Soma Igma
+                Prazer, Somos Igma
             </SmallText>
             <BigText >
                 Acreditamos em um mundo onde experiências incríveis são essenciais.

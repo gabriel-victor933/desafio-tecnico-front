@@ -4,6 +4,7 @@ import FlexContainer from "./FlexContainer";
 const SplitableFlexContainer = styled(FlexContainer)`
     flex-direction: row;
     padding: 0px;
+    box-sizing: content-box;
 
     div {
         display: flex;
@@ -12,12 +13,10 @@ const SplitableFlexContainer = styled(FlexContainer)`
 
     div:first-child {
         width: 43%;
-        background-color: red;
     }
 
     div:last-child {
         width: 57%;
-        background-color: blue;
     }
 
     @media (max-width: 1440px) {
@@ -25,6 +24,7 @@ const SplitableFlexContainer = styled(FlexContainer)`
     }
 
     @media (max-width: 1280px) {
+        height: 504px;
         padding: 0px;
         padding-bottom: var(--spacing-stack-xxl)
     }
@@ -34,6 +34,7 @@ const SplitableFlexContainer = styled(FlexContainer)`
         gap: var(--spacing-stack-sm);
         flex-direction: column;
         align-items: center;
+        height: auto;
 
         div:first-child, div:last-child {
             width: 100%;
