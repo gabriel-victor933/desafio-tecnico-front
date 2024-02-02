@@ -128,6 +128,10 @@ const GlobalStyle = createGlobalStyle`
         --color-background-01: #ffffff;
     }
 
+    * {
+        box-sizing: border-box;
+    }
+
     #root {
         background-color: var(--color-background-01);
         width: 100%;
