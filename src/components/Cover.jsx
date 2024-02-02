@@ -1,13 +1,13 @@
-import FlexContainer from "../styles/FlexContainer"
+import FadeinFlexContainer from "../styles/FadeinFlexContainer"
 import CoverImage from "./CoverImage";
 import CoverTitle from "./CoverTitle";
 
 function Cover() {
   return (
-    <FlexContainer>
+    <FadeinFlexContainer>
         <CoverTitle />
         <CoverImage />
-    </FlexContainer>
+    </FadeinFlexContainer>
   )
 }
 

@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const Fadein = keyframes`
+      0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+`
+
 
 const HeaderContainer = styled.header`
     height: 80px;
@@ -11,6 +23,8 @@ const HeaderContainer = styled.header`
     position: fixed;
     top: 0;
     z-index: 2;
+    animation: ${Fadein} 1s ease-in both;
+    animation-iteration-count: 1;
 
     img {
         width: 120px;

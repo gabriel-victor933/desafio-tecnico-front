@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+
+
 const FlexContainer = styled.section`
     height: 900px;
     width: 95vw;
@@ -7,6 +9,7 @@ const FlexContainer = styled.section`
     flex-direction: row-reverse;
     align-items: stretch;
     padding: var(--spacing-stack-xxxl) 137px 0 137px;
+
 
     div {
         width: 50%;
@@ -34,6 +37,7 @@ const FlexContainer = styled.section`
         width: 100%;
         }
     }
+
 `
 
 export default FlexContainer;
