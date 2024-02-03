@@ -1,18 +1,18 @@
-import celular1 from "../assets/images/celular1.png"
-import celular2 from "../assets/images/celular2.png"
-import celular3 from "../assets/images/celular3.png"
-import celular4 from "../assets/images/celular4.png"
-import celular5 from "../assets/images/celular5.png"
-import celular6 from "../assets/images/celular6.png"
-import celular7 from "../assets/images/celular7.png"
-import celular8 from "../assets/images/celular8.png"
-import celular9 from "../assets/images/celular9.png"
-import celular10 from "../assets/images/celular10.png"
-import celular11 from "../assets/images/celular11.png"
-import celular12 from "../assets/images/celular12.png"
-import Showcase from "../styles/Showcase"
-import ShowcaseImage from "../styles/ShowcaseImage"
-import ShowcaseImagemobile from "../styles/ShowcaseImageMobile"
+import celular1 from '../assets/images/celular1.png';
+import celular2 from '../assets/images/celular2.png';
+import celular3 from '../assets/images/celular3.png';
+import celular4 from '../assets/images/celular4.png';
+import celular5 from '../assets/images/celular5.png';
+import celular6 from '../assets/images/celular6.png';
+import celular7 from '../assets/images/celular7.png';
+import celular8 from '../assets/images/celular8.png';
+import celular9 from '../assets/images/celular9.png';
+import celular10 from '../assets/images/celular10.png';
+import celular11 from '../assets/images/celular11.png';
+import celular12 from '../assets/images/celular12.png';
+import Showcase from '../styles/Showcase';
+import ShowcaseImage from '../styles/ShowcaseImage';
+import ShowcaseImagemobile from '../styles/ShowcaseImageMobile';
 
 function NewsletterShowcase() {
   return (
@@ -42,15 +42,15 @@ function NewsletterShowcase() {
         <ShowcaseImage src={celular12} />
       </div>
       <div className="mobile">
-        <ShowcaseImagemobile src={celular2}/>
+        <ShowcaseImagemobile src={celular2} />
         <ShowcaseImagemobile src={celular5} />
         <ShowcaseImagemobile src={celular8} />
-        <ShowcaseImagemobile src={celular2}/>
+        <ShowcaseImagemobile src={celular2} />
         <ShowcaseImagemobile src={celular5} />
         <ShowcaseImagemobile src={celular8} />
       </div>
     </Showcase>
-  )
+  );
 }
 
-export default NewsletterShowcase
+export default NewsletterShowcase;

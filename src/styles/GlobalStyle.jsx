@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     @font-face {
@@ -141,6 +141,6 @@ const GlobalStyle = createGlobalStyle`
         align-items: center;
     }
 
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;

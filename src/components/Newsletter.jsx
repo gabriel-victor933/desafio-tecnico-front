@@ -1,14 +1,14 @@
-import SplitableFlexContainer from "../styles/SplitableFlexContainer"
-import NewsletterForms from "./NewsletterForms"
-import NewsletterShowcase from "./NewsletterShowcase"
-import styled from "styled-components"
+import SplitableFlexContainer from '../styles/SplitableFlexContainer';
+import NewsletterForms from './NewsletterForms';
+import NewsletterShowcase from './NewsletterShowcase';
+import styled from 'styled-components';
 
 const Container = styled(SplitableFlexContainer)`
-    padding-bottom: var(--spacing-stack-xxxl);
-    @media (max-width: 1280px){
-      padding-bottom: var(--spacing-stack-xxl);
-    }
-`
+  padding-bottom: var(--spacing-stack-xxxl);
+  @media (max-width: 1280px) {
+    padding-bottom: var(--spacing-stack-xxl);
+  }
+`;
 
 function Newsletter() {
   return (
@@ -16,7 +16,7 @@ function Newsletter() {
       <NewsletterForms />
       <NewsletterShowcase />
     </Container>
-  )
+  );
 }
 
-export default Newsletter
+export default Newsletter;

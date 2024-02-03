@@ -1,4 +1,4 @@
-import styled, {keyframes} from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 const Fadein = keyframes`
       0% {
@@ -9,45 +9,43 @@ const Fadein = keyframes`
         transform: translateY(0);
         opacity: 1;
     }
-`
-
+`;
 
 const HeaderContainer = styled.header`
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 148px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  animation: ${Fadein} 0.8s ease-in both;
+  animation-iteration-count: 1;
+
+  img {
+    width: 120px;
+    height: 42px;
+  }
+
+  @media (max-width: 1440px) {
     padding-right: 148px;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    animation: ${Fadein} 0.8s ease-in both;
-    animation-iteration-count: 1;
+  }
+
+  @media (max-width: 1280px) {
+    padding-right: var(--spacing-inline-sm);
 
     img {
-        width: 120px;
-        height: 42px;
+      width: 80px;
+      height: 28px;
     }
-    
-    @media (max-width: 1440px) {
-        padding-right: 148px;
+  }
 
-    }
-
-    @media (max-width: 1280px) {
-        padding-right: var(--spacing-inline-sm);
-
-        img {
-        width: 80px;
-        height: 28px;
-         }
-    }
-
-    @media (max-width: 1024px) {
-        padding-right: var(--spacing-inline-xxs);
-    }
-`
+  @media (max-width: 1024px) {
+    padding-right: var(--spacing-inline-xxs);
+  }
+`;
 
 export default HeaderContainer;

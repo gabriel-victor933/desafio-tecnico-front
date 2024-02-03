@@ -1,8 +1,8 @@
-import Companies from "../components/Companies"
-import Cover from "../components/Cover"
-import Footer from "../components/Footer"
-import Header from "../components/Header"
-import Newsletter from "../components/Newsletter"
+import Companies from '../components/Companies';
+import Cover from '../components/Cover';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import Newsletter from '../components/Newsletter';
 
 function HomePage() {
   return (
@@ -13,7 +13,7 @@ function HomePage() {
       <Newsletter />
       <Footer />
     </>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

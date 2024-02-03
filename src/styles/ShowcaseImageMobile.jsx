@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes } from 'styled-components';
 
 const MoveLeft = keyframes`
     0% {
@@ -7,15 +7,15 @@ const MoveLeft = keyframes`
     100% {
       transform: translateX(-360%);
     }
-`
+`;
 
 const ShowcaseImageMobile = styled.img`
-    width: 40vw;
-    aspect-ratio: 1/2;
-    animation-duration: 5s;
-    animation-name: ${MoveLeft};
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-`
+  width: 40vw;
+  aspect-ratio: 1/2;
+  animation-duration: 5s;
+  animation-name: ${MoveLeft};
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+`;
 
 export default ShowcaseImageMobile;
